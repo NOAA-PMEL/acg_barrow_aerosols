@@ -9,7 +9,7 @@ from scipy.stats import theilslopes
 import numpy as np
 
 app = Dash()
-
+g_server = app.server
 #connecting to ERDDAP
 server = "https://data.pmel.noaa.gov/pmel/erddap"
 e = ERDDAP(server=server, protocol="tabledap", response="csv")
