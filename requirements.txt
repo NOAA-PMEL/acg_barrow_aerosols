@@ -1,0 +1,4 @@
+dash-design-kit==2.1.1
+dash==3.0.4
+gunicorn==23.0.0
+pandas>=1.1.5
