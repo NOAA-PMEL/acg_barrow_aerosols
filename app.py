@@ -13,6 +13,7 @@ import json
 app = Dash(__name__, suppress_callback_exceptions=True) #supress callbacks because not all element IDs are present when page is first loaded
 g_server = app.server
 
+
 #connecting to ERDDAP
 server = "https://data.pmel.noaa.gov/pmel/erddap"
 
