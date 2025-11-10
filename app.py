@@ -17,6 +17,7 @@ g_server = app.server
 #connecting to ERDDAP
 server = "https://data.pmel.noaa.gov/pmel/erddap"
 
+#test
 #gathering submicron
 e_sub = ERDDAP(server=server, protocol="tabledap", response="csv")
 search_for = "station_barrow_submicron_chemistry"
